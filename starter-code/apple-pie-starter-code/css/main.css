@@ -16,8 +16,8 @@ body{
   background-size: cover;
   background-repeat: no-repeat;
 
-  height: 50vh;  
-  width: 80vw;
+  height: 60vh;  
+  width: 100vw;
 
   color: #FFF;
   text-align: center;
@@ -27,16 +27,21 @@ body{
 
 #introduction-wrapper {
   background-color: red; 
-  
+  max-width: 80vw;
+  padding: 50px;
 }
-
-.item-box > p {
-  max-width: 60vw;
+.item-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: solid 1px;
+}
+.item-box  .item > p {
+  max-width: 50vw;
   text-align: justify;
   font-size: 18px;
   margin: auto;
 }
-.item-box > img {
+.item-box .item > img {
   width: 300px;
-  margin-left: 150px;
 }
