@@ -10,6 +10,7 @@ body{
   align-items: center;
   color: #514E4D; 
   font-size: 18px;
+  align-items: center;
 
 }
 
@@ -19,14 +20,14 @@ body{
   background-repeat: no-repeat;
 
   height: 60vh;  
-  width: 100vw;
-
-  color: white;
-  text-align: center;
-  font-size: 40px;
-
+  width: 65vw;
   margin-bottom: 40px;
-  
+}
+.recipe-header {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 160px;
 }
 
 .item-box-wrapper {
@@ -49,9 +50,7 @@ body{
 .item-box .item > img {
   width: 300px;
 }
+.item-box 
 .item {
   margin-bottom: 30px;
-}
-#ul-box {
-
 }
