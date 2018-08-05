@@ -25,7 +25,7 @@ body{
   
 }
 
-#introduction-wrapper {
+#info-wrapper {
   background-color: red; 
   max-width: 80vw;
   padding: 50px;
@@ -44,4 +44,8 @@ body{
 }
 .item-box .item > img {
   width: 300px;
+}
+
+.item {
+  margin-bottom: 40px;
 }
